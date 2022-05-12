@@ -55,7 +55,9 @@ p {
 }
 
 .row {
-    gap: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 30px;
 }
 
 .card-t {
@@ -70,7 +72,6 @@ p {
   font-style: 'Overpass', sans-serif;
   background-color: hsl(213, 19%, 25%);
   color: hsl(217, 12%, 63%);
-  margin: 10px 0 30px;
 }
 
 .rating:hover {
@@ -118,13 +119,9 @@ p {
   font-style: 'Overpass', sans-serif;
   background-color: hsl(213, 19%, 25%);
   color: hsl(217, 12%, 63%);
-  margin: 10px 0 30px;
 }
 
-.row {
-    gap: 3%;
-    text-align: center;
-}
+
 
   .card-t {
     text-align: center;
